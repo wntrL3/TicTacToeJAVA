@@ -247,6 +247,9 @@ public class TicTacToeV2 extends JFrame {
         return '\0';
     }
 
+    /**
+     * Neuer Kommentare
+     */
     private void highlightWin() {
         int[][][] lines = {
                 {{0,0},{0,1},{0,2}},
